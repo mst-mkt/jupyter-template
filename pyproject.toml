@@ -26,6 +26,7 @@ dev-dependencies = [
     "ipykernel>=6.29.4",
     "ruff>=0.3.7",
     "mypy>=1.9.0",
+    "nbqa>=1.8.5",
 ]
 managed = true
 
