@@ -8,3 +8,188 @@
 #   with-sources: false
 
 -e file:.
+absl-py==2.1.0
+    # via keras
+    # via tensorboard
+    # via tensorflow
+annotated-types==0.6.0
+    # via pydantic
+anyio==4.3.0
+    # via httpx
+    # via openai
+astunparse==1.6.3
+    # via tensorflow
+certifi==2024.2.2
+    # via httpcore
+    # via httpx
+    # via requests
+charset-normalizer==3.3.2
+    # via requests
+contourpy==1.2.1
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
+distro==1.9.0
+    # via openai
+flatbuffers==24.3.25
+    # via tensorflow
+fonttools==4.51.0
+    # via matplotlib
+gast==0.5.4
+    # via tensorflow
+google-pasta==0.2.0
+    # via tensorflow
+grpcio==1.62.1
+    # via tensorboard
+    # via tensorflow
+h11==0.14.0
+    # via httpcore
+h5py==3.11.0
+    # via keras
+    # via tensorflow
+httpcore==1.0.5
+    # via httpx
+httpx==0.27.0
+    # via openai
+idna==3.7
+    # via anyio
+    # via httpx
+    # via requests
+joblib==1.4.0
+    # via scikit-learn
+    # via tslearn
+keras==3.2.1
+    # via tensorflow
+kiwisolver==1.4.5
+    # via matplotlib
+libclang==18.1.1
+    # via tensorflow
+llvmlite==0.42.0
+    # via numba
+markdown==3.6
+    # via tensorboard
+markdown-it-py==3.0.0
+    # via rich
+markupsafe==2.1.5
+    # via werkzeug
+matplotlib==3.8.4
+    # via jupyter-template
+mdurl==0.1.2
+    # via markdown-it-py
+ml-dtypes==0.3.2
+    # via keras
+    # via tensorflow
+namex==0.0.8
+    # via keras
+networkx==3.3
+    # via jupyter-template
+numba==0.59.1
+    # via tslearn
+numpy==1.26.4
+    # via contourpy
+    # via h5py
+    # via jupyter-template
+    # via keras
+    # via matplotlib
+    # via ml-dtypes
+    # via numba
+    # via opt-einsum
+    # via pandas
+    # via patsy
+    # via scikit-learn
+    # via scipy
+    # via statsmodels
+    # via tensorboard
+    # via tensorflow
+    # via tslearn
+openai==1.20.0
+    # via jupyter-template
+opt-einsum==3.3.0
+    # via tensorflow
+optree==0.11.0
+    # via keras
+packaging==24.0
+    # via matplotlib
+    # via statsmodels
+    # via tensorflow
+pandas==2.2.2
+    # via jupyter-template
+    # via statsmodels
+patsy==0.5.6
+    # via statsmodels
+pillow==10.3.0
+    # via jupyter-template
+    # via matplotlib
+protobuf==4.25.3
+    # via tensorboard
+    # via tensorflow
+pydantic==2.7.0
+    # via openai
+pydantic-core==2.18.1
+    # via pydantic
+pygments==2.17.2
+    # via rich
+pyparsing==3.1.2
+    # via matplotlib
+python-dateutil==2.9.0.post0
+    # via matplotlib
+    # via pandas
+pytz==2024.1
+    # via pandas
+requests==2.31.0
+    # via tensorflow
+rich==13.7.1
+    # via keras
+scikit-learn==1.4.2
+    # via jupyter-template
+    # via tslearn
+scipy==1.13.0
+    # via scikit-learn
+    # via statsmodels
+    # via tslearn
+setuptools==69.5.1
+    # via tensorboard
+    # via tensorflow
+six==1.16.0
+    # via astunparse
+    # via google-pasta
+    # via patsy
+    # via python-dateutil
+    # via tensorboard
+    # via tensorflow
+sniffio==1.3.1
+    # via anyio
+    # via httpx
+    # via openai
+statsmodels==0.14.2
+    # via jupyter-template
+tensorboard==2.16.2
+    # via tensorflow
+tensorboard-data-server==0.7.2
+    # via tensorboard
+tensorflow==2.16.1
+    # via jupyter-template
+termcolor==2.4.0
+    # via tensorflow
+threadpoolctl==3.4.0
+    # via scikit-learn
+tqdm==4.66.2
+    # via openai
+tslearn==0.6.3
+    # via jupyter-template
+typing-extensions==4.11.0
+    # via openai
+    # via optree
+    # via pydantic
+    # via pydantic-core
+    # via tensorflow
+tzdata==2024.1
+    # via pandas
+urllib3==2.2.1
+    # via requests
+werkzeug==3.0.2
+    # via tensorboard
+wheel==0.43.0
+    # via astunparse
+wrapt==1.16.0
+    # via tensorflow
