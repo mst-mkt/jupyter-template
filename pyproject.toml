@@ -30,3 +30,9 @@ dev-dependencies = [
 ]
 managed = true
 
+[tool.rye.scripts]
+convert = "jupyter nbconvert --to html"
+format = "ruff format"
+lint = "ruff check"
+lint-fix = "ruff check --fix"
+typecheck = "nbqa mypy ./src/"
