@@ -25,7 +25,12 @@ build-backend = "hatchling.build"
 requires = ["hatchling"]
 
 [tool.rye]
-dev-dependencies = []
+dev-dependencies = [
+    "jupyter>=1.0.0",
+    "ipykernel>=6.29.4",
+    "ruff>=0.3.7",
+    "mypy>=1.9.0",
+]
 managed = true
 
 [tool.hatch.metadata]
