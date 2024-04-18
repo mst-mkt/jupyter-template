@@ -1,0 +1,12 @@
+indent-width = 4
+line-length = 100
+target-version = "py312"
+extend-include = ["*.ipynb"]
+
+[lint]
+select = ["ALL"]
+fixable = ["ALL"]
+
+[format]
+quote-style = "single"
+indent-style = "space"
