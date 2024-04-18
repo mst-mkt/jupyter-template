@@ -20,10 +20,6 @@ readme = "README.md"
 requires-python = ">= 3.12"
 version = "0.1.0"
 
-[build-system]
-build-backend = "hatchling.build"
-requires = ["hatchling"]
-
 [tool.rye]
 dev-dependencies = [
     "jupyter>=1.0.0",
@@ -33,8 +29,3 @@ dev-dependencies = [
 ]
 managed = true
 
-[tool.hatch.metadata]
-allow-direct-references = true
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/jupyter_template"]
