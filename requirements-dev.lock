@@ -198,9 +198,6 @@ mistune==3.0.2
 ml-dtypes==0.3.2
     # via keras
     # via tensorflow
-mypy==1.9.0
-mypy-extensions==1.0.0
-    # via mypy
 namex==0.0.8
     # via keras
 nbclient==0.10.0
@@ -428,7 +425,6 @@ tslearn==0.6.3
 types-python-dateutil==2.9.0.20240316
     # via arrow
 typing-extensions==4.11.0
-    # via mypy
     # via openai
     # via optree
     # via pydantic
