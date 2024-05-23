@@ -14,11 +14,8 @@
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
   "python.languageServer": "Pylance",
-  "python.analysis.typeCheckingMode": "strict",
-  "python.analysis.addImport.heuristics": true,
+  "python.analysis.typeCheckingMode": "off",
   "python.analysis.completeFunctionParens": true,
-  "python.analysis.inlayHints.variableTypes": true,
-  "python.analysis.inlayHints.functionReturnTypes": true,
   "python.analysis.autoFormatStrings": true,
   "python.analysis.importFormat": "absolute",
   "python.analysis.fixAll": [

@@ -33,8 +33,6 @@ async-lru==2.0.4
 attrs==23.2.0
     # via jsonschema
     # via referencing
-autopep8==2.1.0
-    # via nbqa
 babel==2.14.0
     # via jupyterlab-server
 beautifulsoup4==4.12.3
@@ -105,7 +103,6 @@ ipython==8.23.0
     # via ipykernel
     # via ipywidgets
     # via jupyter-console
-    # via nbqa
 ipywidgets==8.1.2
     # via jupyter
 isoduration==20.11.0
@@ -198,9 +195,6 @@ mistune==3.0.2
 ml-dtypes==0.3.2
     # via keras
     # via tensorflow
-mypy==1.9.0
-mypy-extensions==1.0.0
-    # via mypy
 namex==0.0.8
     # via keras
 nbclient==0.10.0
@@ -212,7 +206,6 @@ nbformat==5.10.4
     # via jupyter-server
     # via nbclient
     # via nbconvert
-nbqa==1.8.5
 nest-asyncio==1.6.0
     # via ipykernel
 networkx==3.3
@@ -291,8 +284,6 @@ ptyprocess==0.7.0
     # via terminado
 pure-eval==0.2.2
     # via stack-data
-pycodestyle==2.11.1
-    # via autopep8
 pycparser==2.22
     # via cffi
 pydantic==2.7.0
@@ -394,10 +385,6 @@ threadpoolctl==3.4.0
     # via scikit-learn
 tinycss2==1.2.1
     # via nbconvert
-tokenize-rt==5.2.0
-    # via nbqa
-tomli==2.0.1
-    # via nbqa
 tornado==6.4
     # via ipykernel
     # via jupyter-client
@@ -428,7 +415,6 @@ tslearn==0.6.3
 types-python-dateutil==2.9.0.20240316
     # via arrow
 typing-extensions==4.11.0
-    # via mypy
     # via openai
     # via optree
     # via pydantic
