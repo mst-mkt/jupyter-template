@@ -21,12 +21,6 @@ rye run lint-fix # auto-fix
 rye run format
 ```
 
-#### type-check
-
-```sh
-rye run typecheck
-```
-
 ### Dependencies
 
 - [rye](https://rye-up.com)
