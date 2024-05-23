@@ -14,7 +14,7 @@ dependencies = [
     "statsmodels>=0.14.2",
     "scikit-learn>=1.4.2",
 ]
-description = "🧶's jupyter-notebook template with rye, uv, ruff, mypy"
+description = "🧶's jupyter-notebook template with rye, uv, ruff"
 name = "jupyter-template"
 readme = "README.md"
 requires-python = ">= 3.12"
@@ -34,4 +34,3 @@ convert = "jupyter nbconvert --to html"
 format = "ruff format"
 lint = "ruff check"
 lint-fix = "ruff check --fix"
-typecheck = "nbqa mypy ./src/"
