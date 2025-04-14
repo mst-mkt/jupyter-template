@@ -27,7 +27,6 @@
   "ruff.fixAll": true,
   "ruff.organizeImports": true,
   "ruff.lint.enable": true,
-  "ruff.lint.run": "onSave",
 
   "jupyter.askForKernelRestart": false,
   "jupyter.interactiveWindow.viewColumn": "active",
@@ -35,7 +34,7 @@
   "notebook.formatOnSave.enabled": true,
   "notebook.formatOnCellExecution": true,
   "notebook.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": "explicit"
   },
   "notebook.diff.enablePreview": true,
   "notebook.insertFinalNewline": true,
