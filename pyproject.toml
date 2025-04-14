@@ -1,18 +1,18 @@
 [project]
 authors = [
-  {name = "mst-mkt", email = "131662659+mst-mkt@users.noreply.github.com"},
+  { name = "mst-mkt", email = "131662659+mst-mkt@users.noreply.github.com" },
 ]
 dependencies = [
-    "matplotlib>=3.8.4",
-    "networkx>=3.3",
-    "numpy>=1.26.4",
-    "pandas>=2.2.2",
-    "openai>=1.20.0",
-    "tensorflow>=2.16.1",
-    "pillow>=10.3.0",
-    "tslearn>=0.6.3",
-    "statsmodels>=0.14.2",
-    "scikit-learn>=1.4.2",
+  "matplotlib>=3.8.4",
+  "networkx>=3.3",
+  "numpy>=1.26.4",
+  "pandas>=2.2.2",
+  "openai>=1.20.0",
+  "tensorflow>=2.16.1",
+  "pillow>=10.3.0",
+  "tslearn>=0.6.3",
+  "statsmodels>=0.14.2",
+  "scikit-learn>=1.4.2",
 ]
 description = "🧶's jupyter-notebook template with rye, uv, ruff"
 name = "jupyter-template"
@@ -21,11 +21,7 @@ requires-python = ">= 3.12"
 version = "0.1.0"
 
 [tool.rye]
-dev-dependencies = [
-    "jupyter>=1.0.0",
-    "ipykernel>=6.29.4",
-    "ruff>=0.3.7",
-]
+dev-dependencies = ["jupyter>=1.0.0", "ipykernel>=6.29.4", "ruff>=0.3.7"]
 managed = true
 
 [tool.rye.scripts]
